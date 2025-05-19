@@ -9,7 +9,7 @@ This data jobs dashboard was designed to investigate salaries for data jobs acro
 - 💻 Essential skills 
 
 ## Dashboard File
-My final dashboard is in Link
+My final dashboard is  ![here](https://github.com/DataJane/Excel_Data_Analysis_Projects/blob/main/Project_1-Dashboard/Project%201%20Salary_Dashboard.xlsx)
 
 ## Excel Skills Used
 The following Excel skills were used in the analysis
