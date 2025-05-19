@@ -1,5 +1,5 @@
 # Project 1: Excel Dashboard
-![Screenshot of Dashboard](https://github.com/user-attachments/assets/f109f9e6-5bf7-40b8-8b13-a372e65b61c0)
+![Screen Recording Dashboard](https://github.com/user-attachments/assets/e00f6414-b98a-48c0-bdca-2eb28e17b296)
 
 ## Introduction
 This data jobs dashboard was designed to investigate salaries for data jobs across different countries. The data is from Luke Barousse’s Excel course, which provides a foundation in analysing data using this powerful tool. The data contains real-world job information from 2023. It contains detailed information on: 
