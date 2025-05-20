@@ -8,10 +8,10 @@ Questions Analysed
 To understand the dataset, I asked the following questions:
 
 ## Table of Contents
-- [Do more skills result in more pay?](#1do-more-skills-result-in-more-pay)
-- [What is the salary for data jobs in different regions?](#2-whats-the-salary-for-data-jobs-in-different-regions)
-- [What are the top skills of data professionals?](#3--what-are-the-top-skills-of-data-professionals)
-- [What is the pay for the top 10 skills?](#4-whats-the-pay-of-the-top-10-skills)
+- [1. Do more skills result in more pay?](#1do-more-skills-result-in-more-pay)
+- [2. What is the salary for data jobs in different regions?](#2-whats-the-salary-for-data-jobs-in-different-regions)
+- [3. What are the top skills of data professionals?](#3--what-are-the-top-skills-of-data-professionals)
+- [4. What is the pay for the top 10 skills?](#4-whats-the-pay-of-the-top-10-skills)
 
 1.	Do more skills result in more pay?
 2.	What is the salary for data jobs in different regions?
