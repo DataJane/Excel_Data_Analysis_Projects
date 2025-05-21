@@ -1,7 +1,5 @@
 # Project 2: Power Query, Power Pivot & DAX  
 
-# ** UNDER CONSTRUCTION **
-
 ## Introduction  
 This project explores the job postings data set in further detail and sets out to answer some key questions about the top skills that employers request and how this relates to salary levels.  
 
