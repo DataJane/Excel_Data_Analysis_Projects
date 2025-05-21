@@ -27,8 +27,8 @@ The data used for this project is from Luke Barousse’s Excel course. It contai
 **Skill: Power Query (ETL)**  
 ### Extract  
 I first used power query to extract the original data (data_salary_all.xlsx) and create two queries:  
-- One with the data jobs information
-- The second listing all the skills for each job ID 
+- One with the data jobs information (data_jobs_salary)
+- The second listing all the skills for each job ID (data_jobs_skills)
 
 ### Transform
 - Then I transformed each query by changing column types, removing unnecessary columns, cleaning text to eliminate specific words and characters, and trimming excess whitespace. 
@@ -54,19 +54,19 @@ Data_jobs_skills Power Query view
 ### Analysis  
 
 I created a scatter plot with a trend line to analyse whether a greater number of skills equates to more pay.
-![Scatterplot of skills versus salary with trendline showing an increase in salary with increasing number of skills](https://github.com/user-attachments/assets/7648c361-5140-406a-b620-97815dfe0d79)
+![Scatterplot of skills versus salary with trendline showing an increase in salary with increasing number of skills](https://github.com/user-attachments/assets/9c81c25f-2576-4b0c-ba56-bf1bead93144)
 
 
 ### Insights
 - There is a positive correlation between the number of skills requested in job postings and median salary.  
-- For example, Business analyst and data analyst require fewer skills than senior data scientist or data scientist and data scientist. There is a corresponding increase in pay.  
+- For example, Business analyst and data analyst require fewer skills than data scientist or senior data scientist. There is a corresponding increase in pay.  
 - Not all increases in skills lead to greater pay. Data Engineer and Senior Data Engineer require greater numbers of skills than Data Scientist and Senior Data Scientist but command similar salaries respectively.  
 
 ### So What?
 - Data analysis is a fast evolving field and it is clear that job seekers need to be prepared to continuously learn new skills and keep their skill set up to date.
 
 ## 2. What’s the salary for data jobs in different regions?
-### Skills: Power Pivot & Dax
+### Skills: Power Pivot & DAX
 
 ### Data Model
 - I created a data model, integrating the data_jobs_all and data_jobs_skills tables into one model  
@@ -118,12 +118,12 @@ Skill Likelihood:=DIVIDE([Skill Count],[Job Count])
 ![Screenshot of pivot chart showing top skills for Data Analysts](https://github.com/user-attachments/assets/b47f2033-9392-480a-80a7-68999f4bd80e)
 
 ### Insights  
-- What skills dominate: SQL and Python are the most in-demand skills for data professionals.  
-- For Data Analysts, SQL and Excel are the top two skills.  
+- What skills dominate? SQL and Python are the most in-demand skills for all data professionals.  
+- For Data Analysts, SQL and Excel are the top ranking skills.  
 - This chart shows significant numbers for Emerging technologies like AWS and Azure, highlighting their growing importance to the data professional.  
 
 ### So what?
-- This chart shows the importance of keeping up to date with technology for the data analyst.
+- This chart shows the importance of learning a wide range of skills in the data analysis profession.
 
 ## 4. What’s the pay of the top 10 skills?
 ### Skills: Advanced Charts
@@ -139,11 +139,9 @@ Median Salary – Skills:=CALCULATE([Median Salary], CROSSFILTER(data_jobs_salar
 - I created a Combo chart with Job Skills on the x axis,  
 - Median Salary – Skills on primary y axis as bars  
 - Skill Likelihood on secondary y axis, as line with markers, but removed the line and enlarged the markers.  
-- I made the markers a contrasting colour to assist those with visual challenges.  
-- Then added slicers for: Job Title & Country and connected these to all other sheets, where relevant.  
+- I made the markers a contrasting colour to assist those with visual challenges.   
 
 ![Screenshot of Combo chart showing median salary and skill likelihood for each job skill](https://github.com/user-attachments/assets/91d74ce7-1081-4eab-b92b-61635af2e822)
-
 
 ### Insights:
 - Overall, skills like Spark, AWS & Java command the greatest salaries,  
