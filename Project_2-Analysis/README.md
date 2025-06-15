@@ -33,7 +33,7 @@ I first used power query to extract the original data (data_salary_all.xlsx) and
 - In addition to splitting and unpivoting the skills data.
 
 Data_jobs_Salary steps  
-![Screenshot of applied steps in data_jobs_salary query](https://github.com/user-attachments/assets/b8a6eb1b-7f1f-448f-9113-58a164796490)
+<KBD>![Screenshot of applied steps in data_jobs_salary query](https://github.com/user-attachments/assets/b8a6eb1b-7f1f-448f-9113-58a164796490)<KBD>
 
 
 Data_jobs_skills steps  
